@@ -1,0 +1,25 @@
+{
+  "name": "osxdotfiles",
+  "version": "0.1.0",
+  "description": "defaults for osx dev machine",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/derekborland/osxdotfiles.git"
+  },
+  "keywords": [
+    "osx",
+    "dotfiles"
+  ],
+  "author": "Derek Borland <derekborland@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/derekborland/osxdotfiles/issues"
+  },
+  "homepage": "https://github.com/derekborland/osxdotfiles",
+  "bin": {
+    "pvma": "./index.js"
+  },
+  "dependencies": {
+    "commander": "^2.2.0"
+  }
+}
