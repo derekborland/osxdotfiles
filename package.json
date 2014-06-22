@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/derekborland/osxdotfiles",
   "bin": {
-    "dosx": "./index.js"
+    "dosx": "./index.js",
     "pvma": "./bootstrap"
   },
   "dependencies": {
