@@ -2,7 +2,7 @@
 export PATH="$HOME/bin:$PATH";
 
 # Load shell dotfiles
-for file in ~/.{path,bash_prompt,exports,aliases,functions,extras}; do
+for file in ./.{path,bash_prompt,exports,aliases}; do
   [ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
 unset file;
@@ -24,9 +24,3 @@ fi;
 if type _git &> /dev/null && [ -f /usr/local/etc/bash_completion.d/git-completion.bash ]; then
   complete -o default -o nospace -F _git g;
 fi;
-
-# Load RVM into a shell session *as a function*
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" 
-
-# This loads NVM
-[[ -s /Users/derek/.nvm/nvm.sh ]] && . /Users/derek/.nvm/nvm.sh
