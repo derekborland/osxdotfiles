@@ -2,6 +2,7 @@
   "name": "osxdotfiles",
   "version": "0.1.0",
   "description": "defaults for osx dev machine",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/derekborland/osxdotfiles.git"
@@ -17,7 +18,8 @@
   },
   "homepage": "https://github.com/derekborland/osxdotfiles",
   "bin": {
-    "pvma": "./index.js"
+    "dosx": "./index.js"
+    "pvma": "./bootstrap"
   },
   "dependencies": {
     "commander": "^2.2.0"
